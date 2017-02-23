@@ -1,7 +1,23 @@
 
 
 <!doctype html>
-
+<div class="container">
+<div class="content"></div>
+<div class="sidebar"></div>
+</div>
+.container{width:980px}
+.content{width:660px; float:left; margin-right:20px}
+.sidebar{width:300px;float:left}
+// codice per tablet
+@media screen and (max-width: 768px){
+.container{width:728px}
+.content{float:none;margin:0 auto}
+.sidebar{display:none}
+}
+// codice per smartphone
+@media screen and (max-width: 670px){
+.container{width:100%}
+}
 
 
 
