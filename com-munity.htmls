@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Autor" content="Fabrizio Terzi"/>
+    <meta name="description" content="Open Student|Dashboard - Part of - Coursera 2016 Responsive Web Design MOOC  "/>
+    <meta name="keywords" content="Dashboard, Bootrasp,Responsive Web Design"/>
+    <head>
+        <title>Learning by doing</title>
+        <link href="css/bootstrap_castom.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+<body>
+<!--Inizio  Navigazione-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- start collapsed navbar-->
+                <div class="navbar-header">
+                 <button
+                 type="button" class="navbar-toggle collapsed"
+                 data-toggle="collapse"
+                 data-target="#main_navbar"
+                 aria-expanded="false"
+                 >Menu</button>
+                </div><!-- / collapsed navbar-->
+                <!-- start un-collapsed navbar-->
+                <div class="collapse navbar-collapse" 
+                     id="main_navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="galleria.html">Resourses</a></li>
+                        <li><a href="assigment.html">Assigment</a></li>
+                    </ul>
+                </div><!-- / un-collapsed navbar-->
+            </div> <!-- /container -->
+        </nav>
+<!--Fine  Navigazione-->
+        <div class="container">
+            <img src="images/ULG-2.png" class="img-rounded  pull-right" alt=" "  >
+            <div class="jumbotron">   
+                <h1>Welcome :) </h1>
+                <p>Learning by doing with classmates it's one of our passion!</p>
+                <p><a class="btn btn-primary btn-lg" href="https://www.coursera.org/learn/responsive-web-design" role="button">Learn more about Responsive Web Design MOOC</a>
+                </p>
+            </div>
+<!-- Progress bar -->
+        </div>
+         <div id="wrapper">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm col-lg">
+                        <div class="container-fluid-col-md-6">
+                            <div class="row">
+                                <div class="box">
+                                    <div class="box-header">
+                                        <h3 class="box-title text-center">Course Progression</h3>
+                                    </div>
+                                    <!-- /.box-header -->
+                                    <div class="box-body no-padding">
+                                        <table class="table table-condensed">
+                                            <tr>
+                                                <th style="width: 10px">#</th>
+                                                <th>Weeks</th>
+                                                <th>Progress</th>
+                                                <th style="width: 40px">Label</th>
+                                            </tr>
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Responsive Web Design:</td>
+                                                <td>
+                                                    <div class="progress progress-xs progress-striped active">
+                                                        <div class="progress-bar progress-bar-success" style="width: 100%"></div>
+                                                    </div>
+                                                </td>
+                                                <td><span class="badge bg-red">100%</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Realising design principles in code:</td>
+                                                <td>
+                                                    <div class="progress progress-xs progress-striped active">
+                                                        <div class="progress-bar progress-bar-success" style="width: 100%"></div>
+                                                    </div>
+                                                </td>
+                                                <td><span class="badge bg-yellow">100%</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Adding content to websites:</td>
+                                                <td>
+                                                    <div class="progress progress-xs">
+                                                        <div class="progress-bar progress-bar-yellow" style="width: 100%"></div>
+                                                    </div>
+                                                </td>
+                                                <td><span class="badge bg-light-blue">0%</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td>Building a full gallery app:</td>
+                                                <td>
+                                                    <div class="progress progress-xs">
+                                                        <div class="progress-bar progress-bar-yellow" style="width: 100%"></div>
+                                                    </div>
+                                                </td>
+                                                <td><span class="badge bg-green">0%</span></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!-- /.box-body -->
+                                </div>
+                            </div>
+                        </div>
+<!-- Fine progress bar -->
+                    </div>
+                    <div class="col-md-6 col-sm col-lg">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title text-center">Assignments grade</h3>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body no-padding">
+                                <table class="table table-condensed">
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Task</th>
+                                        <th>Progress</th>
+                                        <th style="width: 40px">Label</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Weekly Quiz</td>
+                                        <td>
+                                            <div class="progress progress-xs">
+                                                <div class="progress-bar progress-bar-info" style="width: 70%"></div>
+                                            </div>
+                                        </td>
+                                        <td><span class="badge bg-blue">70%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>Design A Website</td>
+                                        <td>
+                                            <div class="progress progress-xs">
+                                                <div class="progress-bar progress-bar-success" style="width: 80%"></div>
+                                            </div>
+                                        </td>
+                                        <td><span class="badge bg-yellow">80%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>Cron job running</td>
+                                        <td>
+                                            <div class="progress progress-xs progress-striped active">
+                                                <div class="progress-bar progress-bar-warning" style="width: 30%"></div>
+                                            </div>
+                                        </td>
+                                        <td><span class="badge bg-light-blue">30%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4.</td>
+                                        <td>Fix and squish bugs</td>
+                                        <td>
+                                            <div class="progress progress-xs progress-striped active">
+                                                <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+                                            </div>
+                                        </td>
+                                        <td><span class="badge bg-green">90%</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <h2>Responsive Web Design' MOOC - Open Map -</h2>
+                        <h4>Fell free to add your position in the map <a href="https://www.google.com/maps/d/edit?mid=1p_mfh-2T84c-cvU2Ysxk8QG7ZH4">HERE</a></h4>
+                        <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1p_mfh-2T84c-cvU2Ysxk8QG7ZH4" width="1150" height="480"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center">Part of the MOOC Coursera 2016 <strong><a href="https://www.coursera.org/learn/responsive-web-design"> Responsive Web Design</a> </strong> <a href="http://fabrizioterzi.eu"> BY: Fabrizio Terzi</a> </p>
+                    <div class="text-center">
+                      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+                    </div>
+                </div>
+            </div>
+        </footer> 
+        <!--Scripts-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script async defer src='http://code.farfalla-project.org/farfalla.js'></script>
+</body>
+</html>
