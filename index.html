@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+    <!-- {% include return_to_top_button.html %} -->
+    {% include navigation.html %}
+    {% include homeheader.html %}
+
+    <section class="main-content">
+      {{ content }}
+
+      <!-- Home page comments -->
+      <div class="notecomments">
+        {% include disqus.html %}
+      </div>
+
+      {% include footer.html %}
+    </section>
+
+    {% include jquery.html %}
+    <!-- {% include return_to_top.html %} -->
+    {% include nav_shrink.html %}
+    {% include slick.html %}
+  </body>
+</html>
